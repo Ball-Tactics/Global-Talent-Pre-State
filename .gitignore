@@ -1,0 +1,18 @@
+# Match data is licensed to the competition and must never be committed.
+data/
+*.mp4
+*.m4v
+
+# Local caches and build artefacts
+.venv/
+__pycache__/
+*.pyc
+*.parquet
+cache/
+
+# AI review cache
+.ai/
+
+# OS noise
+.DS_Store
+Thumbs.db
